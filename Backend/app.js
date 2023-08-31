@@ -13,7 +13,7 @@ app.use("/api", userRouter);
 app.use("/note", noteRouter);
 mongoose
   .connect(
-    `mongodb+srv://21it3001:${process.env.MONGODB_PASSWORORD}@userdetails.c9r6qow.mongodb.net/`
+    `mongodb+srv://<Your_ID>:${process.env.MONGODB_PASSWORORD}@userdetails.c9r6qow.mongodb.net/`
   )
   .then(() => {
     app.listen(5000);
