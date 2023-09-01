@@ -1,0 +1,63 @@
+/* LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #3D8361;
+    color: white;
+    padding: 20px;
+  }
+  
+  .cta {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta h2 {
+    font-size: 24px;
+    margin: 1rem;
+  }
+  .cta h4 {
+    margin-top: 1rem;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+   
+  }
+  
+  .login-btn,
+.signup-btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #FF6B6B; /* Red */
+  color: white;
+}
+
+.signup-btn {
+  background-color: #0A75AD; /* Blue */
+  color: white;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #E53E3E;}
+
+  
+  

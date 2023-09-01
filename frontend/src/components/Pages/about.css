@@ -1,0 +1,25 @@
+/* AboutPage.css */
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 300px; /* Set the maximum height for the author's picture */
+  }
+  
