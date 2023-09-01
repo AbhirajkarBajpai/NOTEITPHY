@@ -1,0 +1,11 @@
+.notes-list {
+    min-height: 20vh;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notes-list__fallback{
+    color: bisque;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
