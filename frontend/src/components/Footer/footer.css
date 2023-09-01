@@ -1,0 +1,46 @@
+/* Footer.css */
+
+/* Container for the footer */
+.footer-container {
+    background-color: #FFD2D7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Container for the footer content, using Flexbox for center alignment */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Social media icons */
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .icon-link {
+    font-size: 30px;
+    color: #0A75AD;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  .icon-link:hover {
+    color: #1C6758; /* Change icon color on hover */
+  }
+  
+  /* Author's info */
+  .author-info {
+    font-size: 16px;
+    font-weight:600;
+    color:#313866;
+  }
+  
+  /* Add a margin to separate the lines of text */
+  .author-info p {
+    margin: 5px 0;
+  }
+  
