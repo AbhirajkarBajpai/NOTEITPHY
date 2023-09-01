@@ -1,0 +1,27 @@
+.new-note__controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: left;
+    gap: 1rem;
+  }
+  
+  .new-note__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-note__control input, .main-note{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  
+  .new-note__actions {
+    text-align: right;
+  }
